@@ -1,0 +1,13 @@
+<parent>
+    <groupId>com.medcenter</groupId>
+    <artifactId>medical-center-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+</parent>
+
+<artifactId>backup-layer</artifactId>
+<packaging>pom</packaging>
+
+<modules>
+    <module>apps/backup-service</module>
+</modules>

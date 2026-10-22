@@ -1,0 +1,14 @@
+<parent>
+    <groupId>com.medcenter</groupId>
+    <artifactId>medical-center-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+</parent>
+
+<artifactId>medical-layer</artifactId>
+<packaging>pom</packaging>
+
+<modules>
+    <module>apps/gateway</module>
+    <module>apps/auth-manager</module>
+</modules>
